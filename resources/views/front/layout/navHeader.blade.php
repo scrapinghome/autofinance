@@ -78,25 +78,28 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">pages <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">pages <i
+                                    class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="register.html">Register page</a></li>
                                 <li><a href="login.html">Login page</a></li>
                                 <li><a href="shopping-cart.html">Shopping cart</a></li>
                                 <li><a href="shopping-checkout.html">shopping checkout</a></li>
-                                <li><a href="faq.html">FAQ page</a></li>
+                                <li><a href="{{ route('faq') }}">FAQ page</a></li>
                                 <li><a href="404.html">404 Page</a></li>
                                 <li><a href="503.html">Server Error Page</a></li>
                                 <li><a href="terms-of-services.html">Terms of Services</a></li>
                                 <li><a href="coming-soon.html">Coming Soon</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="{{ route('contact') }}">Contact</a></li>
                         <!-- Cart Icon Starts -->
                         <li class="cart"><a href="shopping-cart.html"><i class="fa fa-shopping-cart"></i></a></li>
                         <!-- Cart Icon Starts -->
                         <!-- Search Icon Starts -->
-                        <li class="search"><button class="fa fa-search"></button></li>
+                        <li class="search">
+                            <button class="fa fa-search"></button>
+                        </li>
                         <!-- Search Icon Ends -->
                     </ul>
                     <!-- Main Menu Ends -->
