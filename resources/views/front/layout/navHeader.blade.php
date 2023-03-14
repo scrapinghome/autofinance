@@ -64,10 +64,14 @@
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                     <!-- Main Menu Starts -->
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="{{ route('home') }}">Home</a></li>
-                        <li><a href="{{ route('about') }}">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="{{ route('pricing') }}">Pricing</a></li>
+                        <li @if( currentRouteName() == 'home' ) class="active" @endif><a
+                                href="{{ route('home') }}">Home</a></li>
+                        <li @if( currentRouteName() == 'about' ) class="active" @endif><a href="{{ route('about') }}">About
+                                Us</a></li>
+                        <li @if( currentRouteName() == 'services' ) class="active" @endif><a
+                                href="{{ route('services') }}">Services</a></li>
+                        <li @if( currentRouteName() == 'pricing' ) class="active" @endif><a
+                                href="{{ route('pricing') }}">Pricing</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i
                                     class="fa fa-angle-down"></i></a>
@@ -86,14 +90,13 @@
                                 <li><a href="login.html">Login page</a></li>
                                 <li><a href="shopping-cart.html">Shopping cart</a></li>
                                 <li><a href="shopping-checkout.html">shopping checkout</a></li>
-                                <li><a href="{{ route('faq') }}">FAQ page</a></li>
-                                <li><a href="404.html">404 Page</a></li>
-                                <li><a href="503.html">Server Error Page</a></li>
+                                <li @if( currentRouteName() == 'faq' ) class="active" @endif><a
+                                        href="{{ route('faq') }}">FAQ page</a></li>
                                 <li><a href="terms-of-services.html">Terms of Services</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
                             </ul>
                         </li>
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li @if( currentRouteName() == 'contact' ) class="active" @endif><a
+                                href="{{ route('contact') }}">Contact</a></li>
                         <!-- Cart Icon Starts -->
                         <li class="cart"><a href="shopping-cart.html"><i class="fa fa-shopping-cart"></i></a></li>
                         <!-- Cart Icon Starts -->

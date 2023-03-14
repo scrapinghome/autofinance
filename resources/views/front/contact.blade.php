@@ -10,7 +10,7 @@
 
 @section('frontContent')
 
-    @include('front.layout.banner', ['text' => 'Contact Us', 'pageName' => 'Contact Us'])
+    @include('front.layout.banner', ['text' => 'Contact Us', 'pageName' => 'Contact Us', 'image' => asset('frontAsset/images/backgrounds/bg-banner.jpg')])
 
     <!-- Contact Section Starts -->
     <section class="contact">

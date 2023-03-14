@@ -10,7 +10,7 @@
 
 @section('frontContent')
 
-    @include('front.layout.banner', ['text' => 'Pricing', 'pageName' => 'Pricing' ])
+    @include('front.layout.banner', ['text' => 'Pricing', 'pageName' => 'Pricing', 'image' => asset('frontAsset/images/backgrounds/bg-banner.jpg')])
 
     <!-- Pricing Starts -->
     <section class="pricing">

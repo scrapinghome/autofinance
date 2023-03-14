@@ -10,7 +10,7 @@
 
 @section('frontContent')
 
-    @include('front.layout.banner', ['text' => 'Frequently Asked Questions', 'pageName' => 'FAQ'])
+    @include('front.layout.banner', ['text' => 'Frequently Asked Questions', 'pageName' => 'FAQ', 'image' => asset('frontAsset/images/backgrounds/bg-banner.jpg')])
 
     <!-- Section FAQ Starts -->
     <section class="faq">

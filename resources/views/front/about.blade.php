@@ -11,7 +11,7 @@
 @section('frontContent')
 
     <!-- Banner Area Starts -->
-    @include('front.layout.banner', ['text' => 'About Us', 'pageName' => 'About'])
+    @include('front.layout.banner', ['text' => 'About Us', 'pageName' => 'About', 'image' => asset('frontAsset/images/backgrounds/bg-banner.jpg')])
     <!-- Banner Area Starts -->
 
     <!-- About Section Starts -->

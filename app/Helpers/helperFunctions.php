@@ -6,8 +6,11 @@
  */
 
 
-if ( ! function_exists('divideSentence') ){
-    function divideSentence($text){
+use Illuminate\Support\Facades\Route;
+
+if (!function_exists('divideSentence')) {
+    function divideSentence($text)
+    {
         $text = explode(' ', $text);
         $length = count($text);
         if ($length < 2) return [
@@ -27,11 +30,19 @@ if ( ! function_exists('divideSentence') ){
 }
 
 
-
-if ( ! function_exists('createBannerText') ){
-    function createBannerText($text){
+if (!function_exists('createBannerText')) {
+    function createBannerText($text)
+    {
         $text = divideSentence($text);
 
-        return '<h2 class="title-head"> '. $text['firstHalf'] .' <span>' . $text['secondHalf'] . '</span></h2>';
+        return '<h2 class="title-head"> ' . $text['firstHalf'] . ' <span>' . $text['secondHalf'] . '</span></h2>';
+    }
+}
+
+
+if (!function_exists('currentRouteName')) {
+    function currentRouteName(): ?string
+    {
+        return Route::currentRouteName();
     }
 }
