@@ -47,4 +47,9 @@ class HomeController extends Controller
     {
         return view('front.checkout');
     }
+
+    public function terms()
+    {
+        return view('front.terms');
+    }
 }

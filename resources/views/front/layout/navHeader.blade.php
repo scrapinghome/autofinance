@@ -92,7 +92,8 @@
                                 <li><a href="shopping-checkout.html">shopping checkout</a></li>
                                 <li @if( currentRouteName() == 'faq' ) class="active" @endif><a
                                         href="{{ route('faq') }}">FAQ page</a></li>
-                                <li><a href="terms-of-services.html">Terms of Services</a></li>
+                                <li @if( currentRouteName() == 'terms' ) class="active" @endif><a
+                                        href="{{ route('terms') }}">Terms of Services</a></li>
                             </ul>
                         </li>
                         <li @if( currentRouteName() == 'contact' ) class="active" @endif><a
