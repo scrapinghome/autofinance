@@ -88,7 +88,7 @@
                         </tr>
                         </thead>
                     </table>
-                    <div><a href="shopping-checkout.html" class="btn btn-primary pull-right btn-proceed">Proceed to
+                    <div><a href="{{ route('checkout') }}" class="btn btn-primary pull-right btn-proceed">Proceed to
                             checkout</a></div>
                 </div>
                 <!-- Cart Totals Ends -->
