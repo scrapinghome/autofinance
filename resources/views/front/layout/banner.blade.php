@@ -14,13 +14,13 @@
                 <div class="row text-center">
                     <div class="col-xs-12">
                         <!-- Title Starts -->
-                        {!! createBannerText($text) !!}
+                        {!! createBannerText($text ?? '') !!}
                         <!-- Title Ends -->
                         <hr>
                         <!-- Breadcrumb Starts -->
                         <ul class="breadcrumb">
                             <li><a href="{{ route('home') }}"> home</a></li>
-                            <li>{{ $pageName }}</li>
+                            <li>{{ $pageName ?? '' }}</li>
                         </ul>
                         <!-- Breadcrumb Ends -->
                     </div>
