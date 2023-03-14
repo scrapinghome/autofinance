@@ -6,7 +6,7 @@
  */
 ?>
 
-<section class="banner-area" style="background-image: url({{ $image ?? '' }})">
+<section class="banner-area" style="background-image: url({{ asset($image ?? '') }})">
     <div class="banner-overlay">
         <div class="banner-text text-center">
             <div class="container">

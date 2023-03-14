@@ -98,7 +98,8 @@
                         <li @if( currentRouteName() == 'contact' ) class="active" @endif><a
                                 href="{{ route('contact') }}">Contact</a></li>
                         <!-- Cart Icon Starts -->
-                        <li class="cart"><a href="shopping-cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li class="cart @if( currentRouteName() == 'cart' ) active @endif "><a
+                                href="{{ route('cart') }}"><i class="fa fa-shopping-cart"></i></a></li>
                         <!-- Cart Icon Starts -->
                         <!-- Search Icon Starts -->
                         <li class="search">

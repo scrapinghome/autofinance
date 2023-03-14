@@ -37,4 +37,9 @@ class HomeController extends Controller
     {
         return view('front.service');
     }
+
+    public function cart()
+    {
+        return view('front.cart');
+    }
 }
