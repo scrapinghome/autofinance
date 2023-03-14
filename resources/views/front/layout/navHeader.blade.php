@@ -11,8 +11,8 @@
         <div class="row">
             <!-- Logo Starts -->
             <div class="main-logo col-xs-12 col-md-3 col-md-2 col-lg-2 hidden-xs">
-                <a href="index.html">
-                    <img class="img-responsive" src="images/logo.png" alt="logo">
+                <a href="{{ route('home') }}">
+                    <img class="img-responsive" src="{{ asset('frontAsset/images/logo.png') }}" alt="logo">
                 </a>
             </div>
             <!-- Logo Ends -->
@@ -49,8 +49,8 @@
         <div class="container">
             <div class="site-nav-inner">
                 <!-- Logo For ONLY Mobile display Starts -->
-                <a class="logo-mobile" href="index.html">
-                    <img class="img-responsive" src="images/logo.png" alt="">
+                <a class="logo-mobile" href="{{ route('home') }}">
+                    <img class="img-responsive" src="{{ asset('frontAsset/images/logo.png') }}" alt="">
                 </a>
                 <!-- Logo For ONLY Mobile display Ends -->
                 <!-- Toggle Icon for Mobile Starts -->
@@ -64,8 +64,8 @@
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                     <!-- Main Menu Starts -->
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
+                        <li class="active"><a href="{{ route('home') }}">Home</a></li>
+                        <li><a href="{{ route('about') }}">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="pricing.html">Pricing</a></li>
                         <li class="dropdown">
