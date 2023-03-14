@@ -67,9 +67,10 @@
                         <li class="active"><a href="{{ route('home') }}">Home</a></li>
                         <li><a href="{{ route('about') }}">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="{{ route('pricing') }}">Pricing</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i
+                                    class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
                                 <li><a href="blog-left-sidebar.html">Left Sidebar</a></li>

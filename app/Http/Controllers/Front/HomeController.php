@@ -27,4 +27,9 @@ class HomeController extends Controller
     {
         return view('front.faq');
     }
+
+    public function pricing()
+    {
+        return view('front.pricing');
+    }
 }
