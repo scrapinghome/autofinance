@@ -72,24 +72,15 @@
                                 href="{{ route('services') }}">Services</a></li>
                         <li @if( currentRouteName() == 'pricing' ) class="active" @endif><a
                                 href="{{ route('pricing') }}">Pricing</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i
-                                    class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                <li><a href="blog-left-sidebar.html">Left Sidebar</a></li>
-                                <li><a href="blog-grid-no-sidebar.html">Grid No Sidebar</a></li>
-                                <li><a href="blog-post.html">Single Post</a></li>
-                            </ul>
-                        </li>
+
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">pages <i
                                     class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="register.html">Register page</a></li>
-                                <li><a href="login.html">Login page</a></li>
-                                <li><a href="shopping-cart.html">Shopping cart</a></li>
-                                <li><a href="shopping-checkout.html">shopping checkout</a></li>
+                                <li @if( currentRouteName() == 'cart' ) class="active" @endif><a
+                                        href="{{ asset('cart') }}">Shopping cart</a></li>
+                                <li @if( currentRouteName() == 'checkout' ) class="active" @endif><a
+                                        href="{{ route('checkout') }}">shopping checkout</a></li>
                                 <li @if( currentRouteName() == 'faq' ) class="active" @endif><a
                                         href="{{ route('faq') }}">FAQ page</a></li>
                                 <li @if( currentRouteName() == 'terms' ) class="active" @endif><a
