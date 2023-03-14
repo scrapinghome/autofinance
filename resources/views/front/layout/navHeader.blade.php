@@ -11,8 +11,8 @@
         <div class="row">
             <!-- Logo Starts -->
             <div class="main-logo col-xs-12 col-md-3 col-md-2 col-lg-2 hidden-xs">
-                <a href="index.html">
-                    <img class="img-responsive" src="images/logo.png" alt="logo">
+                <a href="{{ route('home') }}">
+                    <img class="img-responsive" src="{{ asset('frontAsset/images/logo.png') }}" alt="logo">
                 </a>
             </div>
             <!-- Logo Ends -->
@@ -49,8 +49,8 @@
         <div class="container">
             <div class="site-nav-inner">
                 <!-- Logo For ONLY Mobile display Starts -->
-                <a class="logo-mobile" href="index.html">
-                    <img class="img-responsive" src="images/logo.png" alt="">
+                <a class="logo-mobile" href="{{ route('home') }}">
+                    <img class="img-responsive" src="{{ asset('frontAsset/images/logo.png') }}" alt="">
                 </a>
                 <!-- Logo For ONLY Mobile display Ends -->
                 <!-- Toggle Icon for Mobile Starts -->
@@ -64,39 +64,39 @@
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                     <!-- Main Menu Starts -->
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
+                        <li @if( currentRouteName() == 'home' ) class="active" @endif><a
+                                href="{{ route('home') }}">Home</a></li>
+                        <li @if( currentRouteName() == 'about' ) class="active" @endif><a href="{{ route('about') }}">About
+                                Us</a></li>
+                        <li @if( currentRouteName() == 'services' ) class="active" @endif><a
+                                href="{{ route('services') }}">Services</a></li>
+                        <li @if( currentRouteName() == 'pricing' ) class="active" @endif><a
+                                href="{{ route('pricing') }}">Pricing</a></li>
+
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">pages <i
+                                    class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                <li><a href="blog-left-sidebar.html">Left Sidebar</a></li>
-                                <li><a href="blog-grid-no-sidebar.html">Grid No Sidebar</a></li>
-                                <li><a href="blog-post.html">Single Post</a></li>
+                                <li @if( currentRouteName() == 'cart' ) class="active" @endif><a
+                                        href="{{ asset('cart') }}">Shopping cart</a></li>
+                                <li @if( currentRouteName() == 'checkout' ) class="active" @endif><a
+                                        href="{{ route('checkout') }}">shopping checkout</a></li>
+                                <li @if( currentRouteName() == 'faq' ) class="active" @endif><a
+                                        href="{{ route('faq') }}">FAQ page</a></li>
+                                <li @if( currentRouteName() == 'terms' ) class="active" @endif><a
+                                        href="{{ route('terms') }}">Terms of Services</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">pages <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="register.html">Register page</a></li>
-                                <li><a href="login.html">Login page</a></li>
-                                <li><a href="shopping-cart.html">Shopping cart</a></li>
-                                <li><a href="shopping-checkout.html">shopping checkout</a></li>
-                                <li><a href="faq.html">FAQ page</a></li>
-                                <li><a href="404.html">404 Page</a></li>
-                                <li><a href="503.html">Server Error Page</a></li>
-                                <li><a href="terms-of-services.html">Terms of Services</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li @if( currentRouteName() == 'contact' ) class="active" @endif><a
+                                href="{{ route('contact') }}">Contact</a></li>
                         <!-- Cart Icon Starts -->
-                        <li class="cart"><a href="shopping-cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li class="cart @if( currentRouteName() == 'cart' ) active @endif "><a
+                                href="{{ route('cart') }}"><i class="fa fa-shopping-cart"></i></a></li>
                         <!-- Cart Icon Starts -->
                         <!-- Search Icon Starts -->
-                        <li class="search"><button class="fa fa-search"></button></li>
+                        <li class="search">
+                            <button class="fa fa-search"></button>
+                        </li>
                         <!-- Search Icon Ends -->
                     </ul>
                     <!-- Main Menu Ends -->
