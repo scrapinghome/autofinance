@@ -132,6 +132,7 @@
 <!-- Template JS Files -->
 <script src="{{ asset('frontAsset/js/jquery-2.2.4.min.js') }}"></script>
 <script src="{{ asset('frontAsset/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('frontAsset/js/js/jquery.plugin.min.js') }}"></script>
 <script src="{{ asset('frontAsset/js/select2.min.js') }}"></script>
 <script src="{{ asset('frontAsset/js/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ asset('frontAsset/js/custom.js') }}"></script>
