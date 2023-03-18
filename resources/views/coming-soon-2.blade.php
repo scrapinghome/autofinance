@@ -54,22 +54,27 @@
                 </a>
                 <!-- Logo Ends -->
                 <!-- Coming Soon Content Starts -->
-                <h3 class="coming-soon-title">our new website is coming soon !</h3>
-                <p>we're making new awesome features! we will be online in just :</p>
-                <div class="countdown" id="countdown"></div>
+                <h3 class="coming-soon-title">WATCH BELOW 1 MINUTE VIDEO FOR MORE DETAILS ABOUT US</h3>
+               
                 <!-- Coming Soon Content Ends -->
 
                 <div class="coming-soon-video col-md-6 col-md-offset-3">
-                    <video controls class="col-md-12">
+                    <video controls height="100%" width="100%" ">
                         <source src="{{ asset('frontAsset/video.mp4') }}" type="video/mp4">
                         Error Message
                     </video>
                 </div>
+                 <p>OUR ARTIFICIAL INTELLIGENCE BASED TRADING WEBSITE FOR NON-MEMBERS/GENERAL PUBLIC WILL BE VISIBLE IN</p>
+                <div class="countdown" id="countdown"></div>
 
             </div>
         </div>
 
     </div>
+     <!--video controls>
+                        <source src="{{ asset('frontAsset/video.mp4') }}" type="video/mp4">
+                        Error Message
+                    </video-->
     <!-- Template JS Files -->
     <script src="{{ asset('frontAsset/js/jquery-2.2.4.min.js') }}"></script>
     <script src="{{ asset('frontAsset/js/bootstrap.min.js') }}"></script>
@@ -79,7 +84,7 @@
     <script src="{{ asset('frontAsset/js/custom.js') }}"></script>
     <script>
         $(function () {
-            $('#countdown').countdown({until: new Date(2023, 06-1, 25)});
+            $('#countdown').countdown({until: new Date(2023, 03-1, 28)});
         });
     </script>
 
