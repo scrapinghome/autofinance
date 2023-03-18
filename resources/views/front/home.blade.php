@@ -22,7 +22,7 @@
         <!-- Carousel Inner Starts -->
         <div class="carousel-inner">
             <!-- Carousel Item Starts -->
-            <div class="item active bg-parallax item-1">
+            <div class="item active bg-parallax" style="background-image: url({{ asset('frontAsset/images/slider/bg1.png') }})">
                 <div class="slider-content">
                     <div class="container">
                         <div class="slider-text text-center">
@@ -36,7 +36,7 @@
             </div>
             <!-- Carousel Item Ends -->
             <!-- Carousel Item Starts -->
-            <div class="item bg-parallax item-2">
+            <div class="item bg-parallax" style="background-image: url({{ asset('frontAsset/images/slider/bg2.png') }})">
                 <div class="slider-content">
                     <div class="col-md-12">
                         <div class="container">
