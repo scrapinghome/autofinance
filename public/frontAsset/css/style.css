@@ -4485,6 +4485,9 @@ h4.panel-title a.collapsed:before {
 
   #main-slide .item {
     min-height: 400px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 
   #main-slide .slider-content {
