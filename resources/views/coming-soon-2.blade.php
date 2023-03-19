@@ -54,7 +54,7 @@
                 </a>
                 <!-- Logo Ends -->
                 <!-- Coming Soon Content Starts -->
-                <h3 class="coming-soon-title">WATCH BELOW 1 MINUTE VIDEO FOR MORE DETAILS ABOUT US</h3>
+                <h3 class="coming-soon-title">WATCH BELOW 1 MINUTE VIDEO FOR MORE DETAILS ABOUT US!</h3>
                
                 <!-- Coming Soon Content Ends -->
 
