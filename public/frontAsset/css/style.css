@@ -1050,12 +1050,19 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
 /*** Main slide ***/
 
 #main-slide .item {
-  min-height: 570px;
+  min-height: 670px;
+  /*max-width: 100%;*/
+  width: 100%;
+  height: 100%;
   color: #fff;
-  background-position: 50% 50%;
+  /*background-position: 20% 20%;*/
   -webkit-background-size: cover;
   background-size: cover;
   -webkit-backface-visibility: hidden;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 #main-slide .item.item-1 {
@@ -1068,12 +1075,14 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
 
 #main-slide .item:after {
   content: "";
-  background: rgba(0,0,0,.6);
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  /*  background: rgba(0,0,0,.6);*/
+  width: 50%;
+  height: 50%;
+  position: all;
+   /*padding-right: 60px;*/
   top: 0;
-  left: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main-slide .item .slider-content {
