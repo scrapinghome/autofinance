@@ -133,7 +133,7 @@
             <div class="row text-center">
                 <h2 class="title-head">About <span>Us</span></h2>
                 <div class="title-head-subtitle">
-                    <p>a commercial website that lists wallets, exchanges and other bitcoin related info</p>
+                    <p>Our completely automated trading solution makes you sit and watch your capital growing in your own account.</p>
                 </div>
             </div>
             <!-- Section Title Ends -->
@@ -146,8 +146,8 @@
                 <!-- Image Ends -->
                 <!-- Content Starts -->
                 <div class="col-sm-12 col-md-7 col-lg-6">
-                    <h3 class="title-about">WE ARE BAYYA</h3>
-                    <p class="about-text">A place for everyone who wants to simply buy and sell Bitcoins. Deposit funds using your Visa/MasterCard or bank transfer. Instant buy/sell of Bitcoins at fair price is guaranteed. Nothing extra. Join over 700,000 users from all over the world satisfied with our services.</p>
+                    <h3 class="title-about">WHO WE ARE ?</h3>
+                    <p class="about-text">We are a team of data analysts, computer programmers, staticians, mathematicians, economists, artificial intellegence professionals and experienced trades, so we analyze better.</p>
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#menu1">Our Mission</a></li>
                         <li><a data-toggle="tab" href="#menu2">Our advantages</a></li>
@@ -155,13 +155,13 @@
                     </ul>
                     <div class="tab-content">
                         <div id="menu1" class="tab-pane fade in active">
-                            <p>Bitcoin is based on a protocol known as the blockchain, which allows to create, transfer and verify ultra-secure financial data without interference of third parties.</p>
+                            <p>To provide completely automated solution to our clients and grow their finance consistently and with confidence.</p>
                         </div>
                         <div id="menu2" class="tab-pane fade">
-                            <p>Our mission as an official partner of Bitcoin Foundation is to help you enter and better understand the world of #1 cryptocurrency and avoid any issues you may encounter.</p>
+                            <p>100% backtested strategies. No regular human effort, 24/7 trading with our Bot. Zero subscription fee, No hidden charges.</p>
                         </div>
                         <div id="menu3" class="tab-pane fade">
-                            <p>We are here because we are passionate about open, transparent markets and aim to be a major driving force in widespread adoption, we are the first and the best in cryptocurrency. </p>
+                            <p>We share pre-decided part of your net profit after 30 days as our fee, because we are confident about gains of professionaly tested strategies we developed for our clients. </p>
                         </div>
                     </div>
                     <a class="btn btn-primary" href="about.html">Read More</a>
