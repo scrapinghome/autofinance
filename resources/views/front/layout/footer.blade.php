@@ -47,7 +47,7 @@
                     <h4>Contact Us </h4>
                     <div class="contacts">
                         <div>
-                            <span>contact@website.com</span>
+                            <span>info@autotrading.finance</span>
                         </div>
                         <div>
                             <span>00216 21 184 010</span>
