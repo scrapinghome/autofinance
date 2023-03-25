@@ -213,7 +213,7 @@
 										<img src="{{ asset('frontAsset/images/icons/orange/payment-options.png') }}" alt="payment options"/>
 									</span>
                                 <h3 class="feature-title">Payment Options</h3>
-                                <p>Popular methods: Visa, MasterCard, <br>bank transfer, cryptocurrency</p>
+                                <p>Popular methods:  <br>Bank transfer, Cryptocurrency</p>
                             </div>
                         </div>
                         <!-- Feature Ends -->
@@ -224,8 +224,8 @@
                                     <span class="feature-icon">
 										<img src="{{ asset('frontAsset/images/icons/orange/mobile-app.png') }}" alt="mobile app"/>
 									</span>
-                                <h3 class="feature-title">Mobile App</h3>
-                                <p>Trading via our Mobile App, Available<br> in Play Store & App Store</p>
+                                <h3 class="feature-title">Auto trading Bot</h3>
+                                <p>Keep your account growing 24/7 with<br> our trading solutions.</p>
                             </div>
                         </div>
                         <!-- Feature Ends -->
@@ -276,9 +276,9 @@
         <div class="container">
             <!-- Section Title Starts -->
             <div class="row text-center">
-                <h2 class="title-head">affordable <span>packages</span></h2>
+                <h2 class="title-head">Automtaed Trading<span> Packages</span></h2>
                 <div class="title-head-subtitle">
-                    <p>Purchase Bitcoin using a credit card or with your linked bank account</p>
+                    <p>Choose the suitable strategy for your account according to your affoardable risk, We always encourage you to start with low risk one but still choce is yours.</p>
                 </div>
             </div>
             <!-- Section Title Ends -->
@@ -310,7 +310,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">Slow & Stable</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #1 Ends -->
@@ -325,7 +325,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">Slow & Stable</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #1 Ends -->
@@ -343,7 +343,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">Moderate</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #2 Ends -->
@@ -357,7 +357,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">Moderate</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #2 Ends -->
@@ -375,7 +375,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">Agressive</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #3 Ends -->
@@ -390,7 +390,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">Moderate</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #3 Ends -->
@@ -408,7 +408,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">High gain for risk lovers</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #4 Ends -->
@@ -422,7 +422,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="#" class="btn btn-primary">High gain for risk lovers</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #4 Ends -->
@@ -473,9 +473,9 @@
         <div class="container">
             <!-- Section Title Starts -->
             <div class="row text-center">
-                <h2 class="title-head">our <span>experts</span></h2>
+                <h2 class="title-head">our <span>Services</span></h2>
                 <div class="title-head-subtitle">
-                    <p> A talented team of Cryptocurrency experts based in London</p>
+                    <p> Data reveals everything in better way</p>
                 </div>
             </div>
             <!-- Section Title Ends -->
