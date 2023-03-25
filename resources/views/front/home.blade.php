@@ -51,6 +51,66 @@
                 </div> -->
             </div>
             <!-- Carousel Item Ends -->
+             <!-- Carousel Item Starts -->
+            <div class="item bg-parallax" style="background-image: url({{ asset('frontAsset/images/slider/bg3.png') }})">
+                <!-- <div class="slider-content">
+                    <div class="col-md-12">
+                        <div class="container">
+                            <div class="slider-text text-center">
+                                <h3 class="slide-title"><span>Bitcoin</span> Exchange <br/>You can <span>Trust</span> </h3>
+                                <p>
+                                    <a href="pricing.html" class="slider btn btn-primary">our prices</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <!-- Carousel Item Ends -->
+             <!-- Carousel Item Starts -->
+            <div class="item bg-parallax" style="background-image: url({{ asset('frontAsset/images/slider/bg4.png') }})">
+                <!-- <div class="slider-content">
+                    <div class="col-md-12">
+                        <div class="container">
+                            <div class="slider-text text-center">
+                                <h3 class="slide-title"><span>Bitcoin</span> Exchange <br/>You can <span>Trust</span> </h3>
+                                <p>
+                                    <a href="pricing.html" class="slider btn btn-primary">our prices</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <!-- Carousel Item Ends -->
+            <div class="item bg-parallax" style="background-image: url({{ asset('frontAsset/images/slider/bg5.png') }})">
+                <!-- <div class="slider-content">
+                    <div class="col-md-12">
+                        <div class="container">
+                            <div class="slider-text text-center">
+                                <h3 class="slide-title"><span>Bitcoin</span> Exchange <br/>You can <span>Trust</span> </h3>
+                                <p>
+                                    <a href="pricing.html" class="slider btn btn-primary">our prices</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="item bg-parallax" style="background-image: url({{ asset('frontAsset/images/slider/bg6.png') }})">
+                <!-- <div class="slider-content">
+                    <div class="col-md-12">
+                        <div class="container">
+                            <div class="slider-text text-center">
+                                <h3 class="slide-title"><span>Bitcoin</span> Exchange <br/>You can <span>Trust</span> </h3>
+                                <p>
+                                    <a href="pricing.html" class="slider btn btn-primary">our prices</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
         </div>
         <!-- Carousel Inner Ends -->
         <!-- Carousel Controlers Starts -->
@@ -64,45 +124,7 @@
     </div>
     <!-- Slider Ends -->
     <!-- Features Section Starts -->
-    <section class="features">
-        <div class="container">
-            <div class="row features-row">
-                <!-- Feature Box Starts -->
-                <div class="feature-box col-md-4 col-sm-12">
-                        <span class="feature-icon">
-							<img src="{{ asset('frontAsset/images/icons/orange/download-bitcoin.png') }}" alt="download bitcoin">
-						</span>
-                    <div class="feature-box-content">
-                        <h3>Download Bitcoin Wallet</h3>
-                        <p>Get it on PC or Mobile to create, send and receive bitcoins.</p>
-                    </div>
-                </div>
-                <!-- Feature Box Ends -->
-                <!-- Feature Box Starts -->
-                <div class="feature-box two col-md-4 col-sm-12">
-                        <span class="feature-icon">
-							<img src="{{ asset('frontAsset/images/icons/orange/add-bitcoins.png') }}" alt="add bitcoins">
-						</span>
-                    <div class="feature-box-content">
-                        <h3>Add coins to your Wallet</h3>
-                        <p>Add bitcoins you’ve created or exchanged via credit card.</p>
-                    </div>
-                </div>
-                <!-- Feature Box Ends -->
-                <!-- Feature Box Starts -->
-                <div class="feature-box three col-md-4 col-sm-12">
-                        <span class="feature-icon">
-							<img src="{{ asset('frontAsset/images/icons/orange/buy-sell-bitcoins.png') }}" alt="buy and sell bitcoins">
-						</span>
-                    <div class="feature-box-content">
-                        <h3>Buy/Sell with Wallet</h3>
-                        <p>Enter receiver's address, specify the amount and send.</p>
-                    </div>
-                </div>
-                <!-- Feature Box Ends -->
-            </div>
-        </div>
-    </section>
+    
     <!-- Features Section Ends -->
     <!-- About Section Starts -->
     <section class="about-us">
