@@ -15,6 +15,7 @@ class CreateStrategyMonthsTable extends Migration
     {
         Schema::create('strategy_months', function (Blueprint $table) {
             $table->id();
+            $table->integer('strategy_id');
             $table->string('month_name');
             $table->integer('month_gain');
             $table->timestamps();
