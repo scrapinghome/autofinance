@@ -46,3 +46,17 @@ if (!function_exists('currentRouteName')) {
         return Route::currentRouteName();
     }
 }
+
+
+if (!function_exists('calculate')) {
+    function calculate($amount, $percentage, $time)
+    {
+        $amount = (int)$amount;
+        $percentage = (int)$percentage;
+        $time = (int)$time;
+
+        $total = $amount + ($amount * $percentage * $time) / 100;
+
+        return $total;
+    }
+}
