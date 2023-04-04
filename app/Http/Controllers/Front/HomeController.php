@@ -78,4 +78,13 @@ class HomeController extends Controller
     {
         return view('front.terms');
     }
+
+
+    public function calculator()
+    {
+        $strategy = \App\Models\Strategy::all();
+        return view('front.calculator', [
+            'strategies' => $strategy
+        ]);
+    }
 }
