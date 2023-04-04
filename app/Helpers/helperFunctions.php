@@ -55,8 +55,6 @@ if (!function_exists('calculate')) {
         $percentage = (int)$percentage;
         $time = (int)$time;
 
-        $total = $amount + ($amount * $percentage * $time) / 100;
-
-        return $total;
+        return round($amount + ($amount * $percentage * $time) / 100);
     }
 }

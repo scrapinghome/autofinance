@@ -26,6 +26,7 @@ Route::get('services', [HomeController::class, 'services'])->name('services');
 Route::get('cart', [HomeController::class, 'cart'])->name('cart');
 Route::get('checkout', [HomeController::class, 'checkout'])->name('checkout');
 Route::get('terms', [HomeController::class, 'terms'])->name('terms');
+Route::get('calculator', [HomeController::class, 'calculator'])->name('calculator');
 
 
 Route::post('calculate-growth', [HomeController::class, 'calculateGrowth'])->name('calculate-growth');
