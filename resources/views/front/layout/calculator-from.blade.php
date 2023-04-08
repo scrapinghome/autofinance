@@ -11,8 +11,8 @@
         <div class="row">
             <!-- Section Heading Starts -->
             <div class="col-md-12">
-                <h2 class="title-head text-center"><span>Bitcoin</span> Calculator</h2>
-                <p class="message text-center">Find out the current Bitcoin value with our easy-to-use converter</p>
+                <h2 class="title-head text-center"><span>Profit</span> Calculator</h2>
+                <p class="message text-center">Caluclate your profit by selecting your desired startegy below.</p>
             </div>
             <!-- Section Heading Ends -->
             <!-- Bitcoin Calculator Form Starts -->
@@ -24,7 +24,7 @@
                     <div class="form-wrap">
                         <select class="form-input select-currency select-primary" id="capitol_select"
                                 name="capitol_select" data-dropdown-class="select-primary-dropdown">
-                            <option value="" disabled selected>Select</option>
+                            <option value="" disabled selected>Capital</option>
                             <option value="100">100</option>
                             <option value="500">500</option>
                             <option value="1000">1000</option>
@@ -40,7 +40,7 @@
                     <div class="form-wrap">
                         <select class="form-input select-currency select-primary" id="month_select"
                                 name="month_select" data-dropdown-class="select-primary-dropdown">
-                            <option value="" disabled selected>Select</option>
+                            <option value="" disabled selected>Months</option>
                             <option value="3">3</option>
                             <option value="6">6</option>
                             <option value="12">12</option>
